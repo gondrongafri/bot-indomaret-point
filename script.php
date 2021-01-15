@@ -192,67 +192,81 @@ die;
 }
 
 
-$kupon_0 = $hasil_voucher['data']['content']['0'];
-$kupon_0 = [
+// $kupon_0 = $hasil_voucher['data']['content']['0'];
+// $kupon_0 = [
     
-    $kupon_0['couponCode'], 
-    $kupon_0['couponName'],
-    $kupon_0['expiredDate'],
-];
-$kupon_0 = implode(" | ", $kupon_0);
-//
+//     $kupon_0['couponCode'], 
+//     $kupon_0['couponName'],
+//     $kupon_0['expiredDate'],
+// ];
+// $kupon_0 = implode(" | ", $kupon_0);
+// //
 
 
-//
-$kupon_1 = $hasil_voucher['data']['content']['1'];
-$kupon_1 = [
+// //
+// $kupon_1 = $hasil_voucher['data']['content']['1'];
+// $kupon_1 = [
     
-    $kupon_1['couponCode'], 
-    $kupon_1['couponName'],
-    $kupon_1['expiredDate'],
-];
-$kupon_1 = implode(" | ", $kupon_1);
-//
+//     $kupon_1['couponCode'], 
+//     $kupon_1['couponName'],
+//     $kupon_1['expiredDate'],
+// ];
+// $kupon_1 = implode(" | ", $kupon_1);
+// //
 
 
 
 
-//
-$kupon_2 = $hasil_voucher['data']['content']['2'];
-$kupon_2 = [
+// //
+// $kupon_2 = $hasil_voucher['data']['content']['2'];
+// $kupon_2 = [
     
-    $kupon_2['couponCode'], 
-    $kupon_2['couponName'],
-    $kupon_2['expiredDate'],
-];
-$kupon_2 = implode(" | ", $kupon_2);
-//
+//     $kupon_2['couponCode'], 
+//     $kupon_2['couponName'],
+//     $kupon_2['expiredDate'],
+// ];
+// $kupon_2 = implode(" | ", $kupon_2);
+// //
 
 
 
-//
-$kupon_3 = $hasil_voucher['data']['content']['3'];
-$kupon_3 = [
+// //
+// $kupon_3 = $hasil_voucher['data']['content']['3'];
+// $kupon_3 = [
     
-    $kupon_3['couponCode'], 
-    $kupon_3['couponName'],
-    $kupon_3['expiredDate'],
-];
-$kupon_3 = implode(" | ", $kupon_3);
-//
+//     $kupon_3['couponCode'], 
+//     $kupon_3['couponName'],
+//     $kupon_3['expiredDate'],
+// ];
+// $kupon_3 = implode(" | ", $kupon_3);
+// //
 
 
-//
-$kupon_4 = $hasil_voucher['data']['content']['4'];
-$kupon_4 = [
+// //
+// $kupon_4 = $hasil_voucher['data']['content']['4'];
+// $kupon_4 = [
     
-    $kupon_4['couponCode'], 
-    $kupon_4['couponName'],
-    $kupon_4['expiredDate'],
-];
-$kupon_4 = implode(" | ", $kupon_4);
-//
+//     $kupon_4['couponCode'], 
+//     $kupon_4['couponName'],
+//     $kupon_4['expiredDate'],
+// ];
+// $kupon_4 = implode(" | ", $kupon_4);
+// //
 
+
+
+
+
+// //
+// $kupon_6 = $hasil_voucher['data']['content']['6'];
+// $kupon_6 = [
+    
+//     $kupon_6['couponCode'], 
+//     $kupon_6['couponName'],
+//     $kupon_6['expiredDate'],
+// ];
+// $kupon_6 = implode(" | ", $kupon_6);
+// //
 
 //
 $kupon_5 = $hasil_voucher['data']['content']['5'];
@@ -264,28 +278,14 @@ $kupon_5 = [
 ];
 $kupon_5 = implode(" | ", $kupon_5);
 //
-
-
-//
-$kupon_6 = $hasil_voucher['data']['content']['6'];
-$kupon_6 = [
-    
-    $kupon_6['couponCode'], 
-    $kupon_6['couponName'],
-    $kupon_6['expiredDate'],
-];
-$kupon_6 = implode(" | ", $kupon_6);
-//
-
-
 $file = fopen("indomart.txt","a");  
-fwrite($file,"$kupon_0".PHP_EOL);
-fwrite($file,"$kupon_1".PHP_EOL);
-fwrite($file,"$kupon_2".PHP_EOL);
-fwrite($file,"$kupon_3".PHP_EOL);
-fwrite($file,"$kupon_4".PHP_EOL);
+// fwrite($file,"$kupon_0".PHP_EOL);
+// fwrite($file,"$kupon_1".PHP_EOL);
+// fwrite($file,"$kupon_2".PHP_EOL);
+// fwrite($file,"$kupon_3".PHP_EOL);
+// fwrite($file,"$kupon_4".PHP_EOL);
 fwrite($file,"$kupon_5".PHP_EOL);
-fwrite($file,"$kupon_6".PHP_EOL);
+// fwrite($file,"$kupon_6".PHP_EOL);
 fwrite($file,"========================================================".PHP_EOL);
 fwrite($file,"Nomor HP : $phone".PHP_EOL);
 fwrite($file,"========================================================".PHP_EOL);

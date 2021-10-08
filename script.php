@@ -146,7 +146,7 @@ if (empty($cek_user)){
         'Content-Type: application/json',
     ];
 
-    $data_token = '{"couponPromoCode":"T699"}';
+    $data_token = '{"couponPromoCode":"TW5N"}';
     $hasil_token = sate_ayam($url_token, $header_token, $data_token);
     $minta_data = json_decode($hasil_token, true);
     $minta_data = $minta_data['data']['content']['0']['couponName'];
